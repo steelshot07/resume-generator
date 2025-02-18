@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("cv-objective").innerText = localStorage.getItem("cv_objective") || "Not provided";
     document.getElementById("cv-work-experience").innerHTML = localStorage.getItem("work_experience") || "Not provided";
     document.getElementById("cv-academic-qualification").innerHTML = localStorage.getItem("academic_qualification") || "Not provided";
+
+    document.getElementById("cv-name").innerText = localStorage.getItem("head_name") || "Not provided";
+
     });
 
 
